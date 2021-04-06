@@ -1,0 +1,83 @@
+<html>
+<head>
+<title> Registration form </title>
+<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+<div class ="Registerpage">
+<table cellspacing="10">
+<form action="doc_reg.php" method="post" >
+<tr>
+<td><d>Name:</d></td>
+<td><input type="text" placeholder="Enter your name" name="uname"/></br></td>
+</tr>
+
+<tr>
+<td><d>E-Mail:</d></td>
+<td><input type="email" placeholder="Enter your email" name="email"/></br></td>
+</tr>
+
+<tr>
+<td><d>Phone-Number:</d></td>
+<td><input type="number" placeholder="Enter your mobile no" name="phone"/></br></td>
+</tr>
+
+<tr>
+<td><d>Date of birth:</d></td>
+<td><input type="date" placeholder="MM/DD/YY" name="date"/></br></td>
+</tr>
+
+<tr>
+<td><d>Gender:</d></td>
+<td><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Other</br></td>
+</tr>
+
+<tr>
+<td><d>Password:</d></td>
+<td><input type="password" minlength="8,12" title="Password must be atleast 8 characters including 1 uppercase letter, 1 lowercase letter and numeric characters"placeholder="set your password" name="pass"/></br></td>
+</tr>
+
+<tr>
+<td><d>Confirm-Password:</d></td>
+<td><input type="password" placeholder="conform your password"/></br></td>
+</tr>
+
+<tr>
+<td><d>Specialisation:</d></td>
+<td><input type="text" name="specialisation"/></br></td>
+</tr>
+
+<tr>
+<td><d>Hospital name</d></td>
+<td><input type="text" placeholder="Enter hospital name" name="hospital_name"/></br></td>
+</tr>
+
+<tr>
+<td><d>Experience:</d></td>
+<td><input type="number" name="exp"/></br></td>
+</tr>
+
+<tr>
+<td><d>Certificate:</d></td>
+<td><input type="file"/></br></td>
+</tr>
+
+<tr>
+<td><d>Available Timings:</d></td>
+<td><input type="text" placeholder="IN-Time" name="in_time"/></td>
+<td><input type="text" placeholder="OUT-Time" name="out_time"/></td></br>
+</tr>
+
+<tr>
+<td><d>Other:</d></td>
+<td><input type="text"placeholder="Any other details fill here" name="other" /></br></td>
+</tr>
+
+<tr><td align="right" ><button type="submit"/><a href="DoctorLogin.html">Back</a></td>
+<td align="left"><input type="Submit"/></td></tr>
+</form>
+</table>
+</body>
+</html>

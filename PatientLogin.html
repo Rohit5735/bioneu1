@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TELEMEDICINE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <style> 
+        body {
+  background:gray;
+   background-size: cover;
+   text-align :center;
+}
+          
+        .navbar-custom { 
+            background-color:skyblue;
+            			
+        } 
+		
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+ .navbar {
+  width: 100%;
+  background-color:skyblue;
+  overflow: auto;
+  height:0%
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.66%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #00CCFF;
+}
+
+.navbar a.active {
+  background-color: #00CCFF;
+}
+
+@media screen and (max-width: 100px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  }
+  .loginpage{
+width:350px;
+height:350px;
+background:white;
+top:50%;
+left:50%
+position:center;
+transform:translate(140%,40%);
+}
+.img{
+width:100px;
+height:100px;
+border-radius:100%;
+transform:translate(10%,-50%);
+}
+.loginpage d{
+font-weight:bold;
+padding:0;
+margin:15;
+font-family:cursive;
+}
+.loginpage input{
+width:20%;
+margin:5;
+}
+.loginpage input[type="text"],input[type="password"]
+{
+border:none;
+outline:none;
+border-bottom:1px solid black;
+width:80%;
+padding:5;
+margin:10;
+transform:translate(1%,0%);
+font-family:cursive;
+}
+.loginpage input[type="submit"]{
+border:none;
+padding:10;
+outline:none;
+font-weight:bold;
+background:#228B22;
+margin:15;
+transform:translate(-15%,20%);
+
+}
+.loginpage input[type="Reset"]{
+border:none;
+padding:10;
+outline:none;
+font-weight:bold;
+background:#B22222;
+transform:translate(10%,20%);
+}
+
+
+  </style>
+</head>
+<body style="height:50px">
+
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar">
+       <img class="logo-img" src="logo.jpg" width="50" height="50" ALT="align box" ALIGN=CENTER>
+   
+    
+  <a class="active" href="Home.html">Home</a> 
+  <a href="DoctorLogin.html">Doctor</a> 
+  <a href="PatientLogin.html">Patient</a> 
+  <a href="About.html">About</a>
+  <a href="Help.html">Help</a>
+</div>
+  </div>
+</nav>
+<div class="loginpage">
+<img src="6.jpg" height='100' width='100' class="img"/>
+<form action="Patient_login_page.php" method="post">
+<d>
+Username/E-Mail:</d></br><input type="text" placeholder="enter username or email id" name="email"/></br>
+<d>Password:</d></br><input type="password" placeholder="enter password" name="pass"/></br>
+<input type="submit"/>
+<input type="reset"/></br>
+<a href=" ">Forgot password?</a></br>
+New to start please<a href="pat_reg.html">REGISTER</a>  
+</form>
+</div>
+
+
+</body>
+</html>

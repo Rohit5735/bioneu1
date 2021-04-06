@@ -1,0 +1,21 @@
+.con{
+width:500px;
+height:850px;
+background:violet;
+position:center;
+margin:20;
+transform:translate(500px,50px);
+}
+.con input{
+width:100px;
+font-weight:bold;
+font-size:15px;
+margin:5%;
+}
+
+.check
+{
+margin:0%;
+font-weight:bold;
+font-size:25px;
+}

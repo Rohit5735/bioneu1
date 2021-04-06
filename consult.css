@@ -1,0 +1,7 @@
+.con{
+width:200px;
+height:200px;
+background:pink;
+position:center;
+transform:translate(100px,150px);
+}

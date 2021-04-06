@@ -1,0 +1,38 @@
+.Registerpage{
+width:600px;
+height:650px;
+background:lightblue;
+transform:translate(80%,10%);
+position:absolute;
+}
+
+.Registerpage d{
+font-weight:bold;
+font-size:18px;
+padding:20;
+width:80%;
+}
+
+.Registerpage input[type="password"],input[type="email"],input[type="number"]
+{
+border:none;
+outline:none;
+border-bottom:1px solid black;
+width:80%;
+padding:10;
+}
+.Registerpage input[type="text"]{
+border:none;
+outline:none;
+border-bottom:1px solid black;
+width:80%;
+padding:5;
+}
+.Registerpage input[type="submit"]{
+width:50%;
+padding:4;
+}
+.Registerpage input[type="back"]{
+width:50%;
+padding:4;
+}
